@@ -107,11 +107,13 @@
     font-size: 14px;
     font-family: 'Nanum Gothic', sans-serif;
     line-height: 20px;
+    margin: 20px 0;
 }
 
 .logo {
-    width: 167px;
-    height: 40px;
+    width: 160px;
+    height: 24px;
+    padding-top: 8px;
 }
 
 header {
@@ -128,42 +130,28 @@ body {
     width: 24px;
     height: 24px;
     float: right;
-    padding: 5px;
+    padding: 10px;
 }
 
 .center {
     text-align: center;
 }
 
-<<<<<<< HEAD
-h3 {
-    font-family: 'Alata', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    letter-spacing: 1px;
-=======
 h1 {
     font-family: 'Alata', sans-serif;
     letter-spacing: 1px;
     position: relative;
     font-weight: 500;
-    font-size: 2.5em;
->>>>>>> cc6a16363a23152423ae17ddcf5965ebb1f468de
+    font-size: 2.2em;
 }
 
 h2 {
     text-transform: uppercase;
     font-family: 'Nanum Gothic', sans-serif;
     color: #616161;
-<<<<<<< HEAD
-    font-size: 14px;
-    letter-spacing: 2px;
-    margin: 0;
-}
-=======
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 8px;
-    margin-top: -12px;
+    margin-top: -20px;
     font-weight: 100;
 }
   
@@ -181,4 +169,39 @@ h2 {
     display: inline-block;
     line-height: 1em;
   }
->>>>>>> cc6a16363a23152423ae17ddcf5965ebb1f468de
+
+  .date {
+      font-size: 11px;
+  }
+
+  p {
+      font-size: 13px;
+      text-align: justify;
+      letter-spacing: 1px;
+  }
+
+  .yellow {
+      font-weight: 700;
+      width:10px;
+      height:17px;
+      background: #FDDD92;
+      margin-left: -15px;
+      position: absolute;
+  }
+
+  .stack {
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0;
+    line-height: 18px;
+      font-size: 11px;
+  }
+
+  .techno {
+    color: #212121;
+    font-size: 13px;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
