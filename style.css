@@ -60,7 +60,7 @@ p {
     width: 3px;
     background-color: #F5F5F5;
     top: -15px;
-    bottom: 0;
+    bottom: -50px;
     left: 50%;
     margin-left: -1px;
 }
@@ -209,6 +209,20 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     padding: 0;
 
+}
+
+.yellow-footer {
+    background-color: #FDDD92;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.white {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 35px 0;
+    letter-spacing: 2px;
 }
 
 @media (max-width: 767.98px) {
