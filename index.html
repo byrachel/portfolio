@@ -2,20 +2,30 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Développeur Web & Mobile : Rachel Nething</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,700&display=swap" rel="stylesheet">
 
 </head>
 <body>
 
-    <header>
-        <img src="img/dev.png" alt="Rachel Nething" class="logo" />
-        <a href="mailto:contact@rachelnething.dev"><img src="img/mail.png" alt="contact" class="icon-right" /></a>
-        <a href="https://github.com/byrachel"><img src="img/github.png" alt="Github" class="icon-right" /></a>
-        <a href="https://www.linkedin.com/in/rachel-nething/"><img src="img/linkedin.png" alt="Linkedin" class="icon-right" /></a>
-    </header>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 logo">
+                        <p class="bold-title">Rachel <span class="title">Nething</span><span class="underscore">_</span></p>
+                    </div>
+                    <div class="col-md-6 headerLink">
+                        <a href="mailto:contact@rachelnething.dev"><img src="img/mail.png" alt="contact" class="iconHeader"/></a>
+                        <a href="https://github.com/byrachel"><img src="img/github.png" alt="Github" class="iconHeader" /></a>
+                        <a href="https://www.linkedin.com/in/rachel-nething/"><img src="img/linkedin.png" alt="Linkedin" class="iconHeader" /></a>
+                    </div>
+                </div>
+            </div>
+        </header>
 
         <h1 class="ml9 center">
         <span class="text-animation">
@@ -28,33 +38,31 @@
     <section>
         <div class="timeline-container">
             <div class="left text-wrapper">
-                <div class="text">
-                    <h3><a href="#">Karroad</a></h3>
+                    <a href="karroad.html"><div class="text">
+                    <h3>Karroad</h3>
                     <p class="date">Novembre 2019</p>
-                    <p class="intitule">Interface privée de visualisation de données, pour une start-up d'analyse de flux avec AI.</p>
-                    <div class="yellow"></div><p class="stack">Stack:</p>
-                    <p class="techno">MERN : MongoDB ExpressJS ReactJS NodeJS</p>
-                </div>
+                    <p class="intitule">Interface privée de <span class="bold">visualisation de données</span>, pour une start-up d'analyse de flux grâce à l'IA.</p>
+                    <div class="title-stack"><div class="yellow"></div><p class="stack">Stack</p></div>
+                    <p class="techno">MongoDB ExpressJS ReactJS NodeJS (MERN) + D3JS (datavisualisation)</p>
+                </div></a>
             </div>
             <div class="right text-wrapper">
                 <div class="text">
-                    <h3>Green Hackathon</h3>
-                    <p class="date">Novembre 2019</p>
-                    <p class="intitule"><strong>Application mobile</strong> pour fédérér les jeunes autour d'actions "green" au travers de défis et animations.</p>
-                    <div class="yellow"></div><p class="stack">Stack:</p>
-                    <p class="techno">Front-End : React-Native</p>
-                    <p class="techno">Back-End : MongoDB ExpressJS NodeJS</p>
+                    <h3>Hackathon Green Tech</h3>
+                    <p class="date">Organisé par <a href="http://hackforwomen.com">WHAT06</a> - Novembre 2019</p>
+                    <p class="intitule"><span class="bold">Application mobile</span> pour fédérér les jeunes autour d'actions "green" au travers de défis et animations.</p>
+                    <div class="title-stack"><div class="yellow"></div><p class="stack">Stack</p></div>
+                    <p class="techno">ReactNative</p>
                 </div>
             </div>
             <div class="left text-wrapper">
                 <div class="text">
                     <h3>Cena-map.fr</h3>
-                    <p class="date">Novembre 2019</p>
+                    <p class="date">Réalisé pour <a href="https://www.talentintech06.com/fr/talentintech06/Talent-in-Tech">Talent In Tech</a> - Novembre 2019</p>
                     <p class="intitule">Dans le cadre du salon Talent In Tech, création du <strong>site web </strong>: Cartographie de l'Ecosystème Numérique Azuréen, travail en équipe.</p>
 
-                    <div class="yellow"></div><p class="stack">Stack:</p>
-                    <p class="techno">MERN : MongoDB ExpressJS ReactJS NodeJS</p>
-                    <p class="techno">API: Google Map</p>
+                    <div class="title-stack"><div class="yellow"></div><p class="stack">Stack</p></div>
+                    <p class="techno">MongoDB ExpressJS ReactJS NodeJS (MERN) + API Google Map</p>
                 </div>
             </div>
             <div class="right text-wrapper">
@@ -62,7 +70,7 @@
                     <h3>Quote</h3>
                     <p class="date">Novembre 2019</p>
                     <p class="intitule">Création d'une <strong>application mobile</strong> de partage et stockage de citations.</p>
-                    <div class="yellow"></div><p class="stack">Stack:</p>
+                    <div class="title-stack"><div class="yellow"></div><p class="stack">Stack</p></div>
                     <p class="techno">Front-End : React-Native</p>
                     <p class="techno">Back-End : MongoDB ExpressJS NodeJS</p>
                 </div>
@@ -72,12 +80,13 @@
                     <h3><a href="#">Portraitoupaysage.com</a></h3>
                     <p class="date">Septembre 2014</p>
                     <p class="intitule">Site d'inspiration et de partage pour les photographes professionnels. </p>
-                    <div class="yellow"></div><p class="stack">Stack:</p>
+                    <div class="title-stack"><div class="yellow"></div><p class="stack">Stack</p></div>
                     <p class="techno">Wordpress - Woocommerce</p>
                 </div>
             </div>
         </div>
     </section>
+
 
 </body>
   
