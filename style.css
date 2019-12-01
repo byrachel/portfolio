@@ -42,10 +42,11 @@ header {
 }
 
 p {
-    font-size: 13px;
+    font-size: 16px;
     text-align: justify;
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
+    color: #212121;
 }
 
 .timeline-container {
@@ -121,6 +122,10 @@ a:hover {
     transition: .5s ease;
 }
 
+.shadow {
+    box-shadow: 0px 5px 5px -5px #616161;
+}
+
 .text h3{
     text-transform: uppercase;
     font-size: 18px;
@@ -155,6 +160,22 @@ h1 {
 
 .projet-title {
     padding-top: 1.5em;
+}
+
+.projet {
+    padding-bottom: 2em;
+}
+
+.description {
+    margin: 8% 5%;
+}
+
+h3 {
+    font-family: 'Alata', sans-serif;
+    position: relative;
+    font-size: 2em;
+    color: #FDDD92;
+
 }
 
 h2 {
@@ -225,6 +246,22 @@ h2 {
     letter-spacing: 2px;
 }
 
+.slogan {
+    font-size: 1.4em;
+    font-family: 'Alata', sans-serif;
+}
+
+.divider {
+    margin: 6%;
+}
+
+.underline {
+    border-top: solid 2px #FDDD92;
+    width: 100px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
 @media (max-width: 767.98px) {
 
     .bold-title {
@@ -253,5 +290,14 @@ h2 {
 
     .text-wrapper::after{
         display: none;
+    }
+
+    h1 {
+        font-size: 1.7em;
+    }
+
+    .timeline-container {
+        width: 760px;
+        margin: 0 auto;
     }
 }
