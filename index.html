@@ -14,21 +14,55 @@
   <meta property="og:url" content="http://www.rachelnething.dev">
 </head>
 <body>
-
+    <div class="container">
         <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 logo">
-                        <a href="http://www.rachelnething.dev"><p class="bold-title">Rachel <span class="title">Nething</span><span class="underscore">_</span></p></a>
-                    </div>
-                    <div class="col-md-6 headerLink">
-                        <a href="mailto:contact@rachelnething.dev"><img src="img/mail.png" alt="contact" class="iconHeader"/></a>
-                        <a href="https://github.com/byrachel"><img src="img/github.png" alt="Github" class="iconHeader" /></a>
-                        <a href="https://www.linkedin.com/in/rachel-nething/"><img src="img/linkedin.png" alt="Linkedin" class="iconHeader" /></a>
-                    </div>
+            
+            <div class="row">
+                <div class="col-md-6 logo">
+                    <a href="/index.html"><p class="bold-title">Rachel <span class="title">Nething</span><span class="underscore">_</span></p></a>
+                </div>
+                <div class="col-md-6 headerLink">
+
+
+                        <a href="#main-menu"
+                        id="main-menu-toggle"
+                        class="menu-toggle iconHeader"
+                        aria-label="Open main menu">
+                        <span class="sr-only">Open main menu</span>
+                        <img src="img/menu.png" aria-hidden="true" />
+                        </a>
+                        
+                        
+                        <nav id="main-menu" class="main-menu" aria-label="Main menu">
+                        <a href="#main-menu-toggle"
+                            id="main-menu-close"
+                            class="menu-close"
+                            aria-label="Close main menu">
+                            <span class="sr-only">Close main menu</span>
+                            <img src="img/close.png" aria-hidden="true" />
+                        </a>
+                        <ul>
+                            <br />
+                            <li><a href="#"><p class="white center">A propos</p></a></li>
+                            <li><a href="/index.html"><p class="white center">Projets:</p></a></li>
+                            <li><a href="/karroad.html" class="center">Karroad</a></li>
+                            <li><a href="/quote.html" class="center">Quote</a></li>
+                        </ul>
+                        </nav>
+                        <a href="#main-menu-toggle"
+                            class="backdrop"
+                            tabindex="-1"
+                            aria-hidden="true" hidden></a>
+
+
+
+                    <a href="https://github.com/byrachel"><img src="img/github.png" alt="Github" class="iconHeader" /></a>
+                    <a href="https://www.linkedin.com/in/rachel-nething/"><img src="img/linkedin.png" alt="Linkedin" class="iconHeader" /></a>
                 </div>
             </div>
+            
         </header>
+    </div>
 
         <h1 class="ml9 center">
         <span class="text-animation">
