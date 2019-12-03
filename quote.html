@@ -25,114 +25,108 @@
             </div>
         </div>
     </header>
+    <div class="container top">
+        <p class="bc"><a href="http://www.rachelnething.dev" >< Accueil</a><a href="/karroad.html" class="bc-right">Projet Karroad ></a></p>
+    </div>
     <div class="projet">
         <h1 class="projet-title center">Développeur web & mobile</h1>
         <h2 class="center">Projet : Quote</h2>
     </div>
     <section>
         <div class="container center">
-            <img src="img/karroad_home.png" alt="Création d'une application mobile avec React-Native" class="img-fluid" />
+            <img src="img/quote.jpg" alt="Création d'une application mobile avec React-Native" class="img-fluid" />
         </div>
-        <div class="container">
-            <div class="row description">
-                <div class="col-md-4">
-                    <h3>Objectif : faciliter la visualisation des données récoltées.</h3>
-                </div>
-                <div class="col-md-8">
-                    <p><a href="https://karroad.com"><span class="slogan">Karroad</span></a> est une start-up qui vise à aider les collectivités et groupes privés à <span class="slogan">analyser efficacement leurs flux de circulation</span>. Cela peut aller du nombre de véhicules sur une entrée d'autoroute au nombre de passants. Pour ce faire, ils utilisent l'IA (intelligence artificielle) couplée à une caméra.</p>
-                </div>
+
+    <div class="divider"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <img src="img/quote-flow.png" />
+            </div>
+            <div class="col-md-7">
+                <div class="divider"></div>
+                <h3>Objectif :</h3>
+                <br />
+                <p><span class="slogan">Quote</span> est un petit réseau social en devenir. Cette application mobile permet de stocker et de partager ses citations préférées, d'en découvrir de nouvelles et de se connecter à d'autres fans de citations. Il s'agit d'une version bêta, de nouvelles fonctionnalités sont en cours de développement.</p>
+                <br />
+                <h3>Environnement de travail </h3>
+                <br />
+                <p class="slogan">Front-End :</p>
+                <ul>
+                    <li><p>Le framework cross-platform <strong>React-Native</strong> permet de créer une application qui sera ensuite utilisable à la fois sur iOS et Androïd,</p></li>
+                    <li><p>Le menu en bas de page est créé avec <strong>React Navigation</strong>.</p></li>
+                </ul>
+                <br />
+                <p class="slogan">Back-End :</p>
+                <br />
+                <ul>
+                    <li><p><strong>NodeJS & Express JS</strong> pour un environnement back-end réactif, agile et full JS,</p></li>
+                    <li><p><strong>MongoDB</strong> pour le stockage des données,</p></li>
+                    <li><p><strong>PassportJS</strong> pour gérer l'authentification et la création des utilisateurs,</p></li>
+                </ul>
+
             </div>
         </div>
-        <div class="container">
+    </div>
+
+    <div class="container">
             <div class="row">
+
                 <div class="col-md-7">
-                    <img src="img/heatmap.png" class="img-fluid shadow" />
+                    <div class="divider">
+                        <br />
+                        <h3>Fonctionnalités</h3>
+                        <br />
+                        <p class="slogan">Version Bêta :</p>
+                        <br />
+                        <ul>
+                            <li><p>Animation de lancement (splashscreen),</p></li>
+                            <li><p>Création d'un nouveau compte utilisateur,</p></li>
+                            <li><p>Connexion à un compte existant,</p></li>
+                            <li><p>Affichage de toutes les citations enregistrées dans le "flow" par ordre antechonologique,</p></li>
+                            <li><p>Accès à son compte utilisateur,</p></li>
+                            <li><p>Stockage et affichage de ses propres citations,</p></li>
+                        </ul>
+                        <br />
+                        <p class="slogan">En cours de développement :</p>
+                        <br />
+                        <ul>
+                            <li><p>Indiquer une mention "j'aime" sur une citation,</p></li>
+                            <li><p>Choisir si l'on souhaite partager sa citation dans le flow ou la garder privée,</p></li>
+                            <li><p>Suivre le compte d'un autre utilisateur,</p></li>
+                            <li><p>Choisir entre différents background,</p></li>
+                            <li><p>Partager une citation sur un autre réseau social.</p></li>
+                        </ul>
+                    </div>
                 </div>
+
                 <div class="col-md-5">
-                    <br />
-                    <p class="slogan">Cahier des charges :</p>
-                    <br />
-                    <ul>
-                        <li><p>Utilisation de <a href="https://d3js.org"><strong>D3JS</strong></a> pour la datavisualisation,</p></li>
-                        <li><p>Création au minimum d'un <strong>heatmap</strong> et d'un barchart,</p></li>
-                        <li><p>Possibilité de filtrer les données,</p></li>
-                        <li><p>Géolocalisation des périphériques avec <strong>Open Street Map,</strong></p></li>
-                        <li><p>Sélection du dashboard via un menu déroulant dynamique,</p></li>
-                        <li><p>Format des données reçues : .csv,</p></li>
-                        <li><p>Accès différencié : Administrateur / Client.</p></li>
-                    </ul>
+                    <div class="left">
+                        <img src="img/quote-citation.png" />
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="divider"></div>
+        <div class="container-fluid grey-bg">
 
-        <div class="container">
-            <div class="divider">
-                <br />
-                <h3 class="center">L'environnement de travail</h3>
-                <h2 class="center">Stack MERN</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <p><span class="slogan center">Front-End</span> : Le framework D3JS nous étant imposé, nous avons choisi de réaliser cette interface avec le framework <strong>ReactJS</strong> afin de profiter de la souplesse de Javascript, la réactivité du DOM virtuel et la gestion du cycle de vie. Nous avons utilisé <strong>Semantic UI</strong> pour une ergonomie responsive et accès UX.</p>
-                </div>
-                <div class="col-md-6">
-                    <p><span class="slogan center">Back-End</span> : Grâce au serveur <strong>NodeJS</strong> et au framework ExpressJS, nous nous assurons de profiter des qualités de Javascript de bout en bout. La couche <strong>Passport JS</strong> nous permettra de gérer l'authentification des utilisateurs. Enfin, <strong>MongoDB</strong> sera le parfait allié sur la partie "base de données".</p>
-                </div>
-            </div>
-        </div>
-        <div class="container center">
-
-            <div class="divider">
-                <h3 class="center">Dashboard client</h3>
-                <h2 class="center">Ergonomie & UX</h2>
-                <div class="underline"></div>
-                <br />
-                <p class="center">Pour <span class="slogan">faciliter la prise en main</span> de l'interface, seules les informations essentielles sont affichées :</p>
-                    
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <img src="img/dashboard.png" class="img-fluid shadow" />
-                </div>
-                <div class="col-md-4">
-                    <ul>
-                        <li><p><strong>Header :</strong> Accès rapide au support, règlages et logout,</p></li>
-                        <li><p><strong>BreadCrumb :</strong> Identifie le compte client et sa position,</p></li>
-                        <li><p><strong>Sidebar :</strong> Un seul élément du menu est accessible et actif,</p></li>
-                        <li><p><strong>Statistiques générales :</strong> Affichage du nombre de périphériques et de la date de fin de contrat (ces données sont issues de la base de données),</p></li>
-                        <li><p><strong>Localisation</strong> des périphériques du client (affichage dynamique fonction de la base de données),</p></li>
-                        <li><p><strong>Menu déroulant</strong> : Sélection du périphérique dont on veut voir les données.</p></li>
-                    </ul>
-                </div>
-
-            </div>
-            <div class="divider"></div>
-            <p class="slogan">A savoir :</p> 
-            <p>Toutes les données liées au client et à ses périphériques sont récupérées et affichées de façon dynamique. Cela signifie qu'elles proviennent de la base de données. Ainsi, il suffit d'ajouter ou de modifier un périphérique une seule fois pour que l'ajout ou le changement se répercute sur tous les dashboards.</p>
             <br />
-        </div>
-        <div class="container center">
-            <div class="divider">
-                <h3 class="center">Datavisualisation avec D3JS</h3>
-                <h2 class="center">Dashboard périphérique</h2>
-                <div class="underline"></div>
-                <br />
-                <p class="center">Les données liées au périphérique sont issues d'un <span class="slogan">fichier CSV</span> uploadé automatiquement toutes les dix minutes. La sidebar s'est enrichie afin de permettre l'accès au téléchargement du fichier CSV complet, aux photos du périphérique en situation, aux alertes et graphiques personnalisés.</p>
-            </div>
-            <div class="description">
-                <img src="img/peripherique-dashboard.png" class="img-fluid shadow" />
+            <h3 class="center">Découvrez l'application QUOTE</h3>
+            <h2 class="center">En vidéo</h2>
+            <div class="underline"></div>
+            <div class="divider"></div>
+
+            <div class="center">
+                <iframe src="https://player.vimeo.com/video/377037213" width="320" height="610" frameborder="0" allow="autoplay"></iframe>
             </div>
         </div>
 
     </section>
     <footer>
-        <div class="container-fluid">
-            <div class="yellow-footer">
-                <p class="center white">Website réalisé en HTML5 / CSS3 / Javascript.</p>
-            </div>
+        <div class="container-fluid yellow-footer">
+
+            <p class="center white">Website réalisé en HTML5 / CSS3 / Javascript.</p>
+
         </div>
     </footer>
 

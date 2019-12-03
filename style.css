@@ -235,7 +235,6 @@ h2 {
 .yellow-footer {
     background-color: #FDDD92;
     height: 100px;
-    margin-top: 50px;
 }
 
 .white {
@@ -261,6 +260,23 @@ h2 {
     margin: 0 auto;
     padding-bottom: 20px;
 }
+
+.grey-bg {
+    background-color: #c8c8ca;
+}
+
+.bc {
+    font-size: 12px;
+}
+
+.bc-right {
+    float: right;
+}
+
+.top {
+    margin-top: 10px;
+}
+
 
 @media (max-width: 767.98px) {
 
@@ -300,4 +316,5 @@ h2 {
         width: 760px;
         margin: 0 auto;
     }
+
 }
