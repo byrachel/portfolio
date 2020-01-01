@@ -143,6 +143,10 @@ header {
     padding: 6px 0;
 }
 
+.img-container {
+    max-width: 820px;
+}
+
 .underscore {
     color: #FDDD92;
     font-weight: 700;
