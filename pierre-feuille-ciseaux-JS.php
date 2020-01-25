@@ -22,7 +22,7 @@
     <div class="projet container">
         <div id="up"></div>
         <br />
-        <p class="date align-right"><a href="/devio.html">Projet Dev.(io) >></a></p>
+        <p class="date align-right"><a href="devio.php">Projet Dev.(io) >></a></p>
         <h1 class="projet-title center">Développeur web & mobile</h1>
         <h2 class="center">Projet : Pierre Feuille Ciseaux</h2>
         <br />

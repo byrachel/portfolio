@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-md-6 logo">
-        <a href="/index.html"><p class="bold-title">Rachel <span class="title">Nething</span><span class="underscore">_</span></p></a>
+        <a href="index.php"><p class="bold-title">Rachel <span class="title">Nething</span><span class="underscore">_</span></p></a>
     </div>
     <div class="col-md-6 headerLink">
 

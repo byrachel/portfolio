@@ -22,7 +22,7 @@
     <div class="projet container">
         <div id="up"></div>
         <br />
-        <p class="date align-right"><a href="/cena.html">Projet Cena >></a></p>
+        <p class="date align-right"><a href="cena.php">Projet Cena >></a></p>
         <h1 class="projet-title center">Développeur web & mobile</h1>
         <h2 class="center">Projet : Dev.(io)</h2>
         <br />
