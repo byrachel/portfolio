@@ -34,7 +34,7 @@
         <div class="timeline-container">
 
             <div class="left text-wrapper">
-                <a href="devio.html"><div class="text">
+                <a href="devio.php"><div class="text">
                 <h3>Dev.(io)</h3>
                 <p class="date">Décembre 2019</p>
                 <p class="intitule">Projet personnel : passionnée de <span class="bold">Javascript</span>, cet espace web a pour but de partager tous les outils et services dédiés aux développeurs JS.</p>
@@ -44,7 +44,7 @@
             </div>
 
             <div class="right text-wrapper">
-                <a href="pierre-feuille-ciseaux-JS.html"><div class="text">
+                <a href="pierre-feuille-ciseaux-JS.php"><div class="text">
                 <h3>Pierre Feuille Ciseaux</h3>
                 <p class="date">Décembre 2019</p>
                 <p class="intitule">Création du jeu <span class="bold">"Rock Paper Cisors"</span> dans le cadre d'un test technique. Directive : Il ne fallait utiliser ni bibliothèque, ni framework.</p>
@@ -54,7 +54,7 @@
             </div>
 
             <div class="left text-wrapper">
-                    <a href="karroad.html"><div class="text">
+                    <a href="karroad.php"><div class="text">
                     <h3>Karroad</h3>
                     <p class="date">Novembre 2019</p>
                     <p class="intitule">Interface privée de <span class="bold">visualisation de données</span>, pour une start-up d'analyse de flux grâce à l'IA.</p>
@@ -64,7 +64,7 @@
             </div>
 
             <div class="right text-wrapper">
-                    <a href="quote.html"><div class="text">
+                    <a href="quote.php"><div class="text">
                     <h3>Quote</h3>
                     <p class="date">Projet personnel - Novembre 2019</p>
                     <p class="intitule">Création d'une <span class="bold">application mobile</span> de partage et stockage de citations inspirantes.</p>
@@ -84,7 +84,7 @@
             </div>
             
             <div class="right text-wrapper">
-                <a href="cena.html"><div class="text">
+                <a href="cena.php"><div class="text">
                     <h3>Cena-map.fr</h3>
                     <p class="date">Réalisé pour Talent In Tech - Novembre 2019</p>
                     <p class="intitule">Dans le cadre du salon Talent In Tech, création du <strong>site web </strong>: Cartographie de l'Ecosystème Numérique Azuréen, travail en équipe.</p>
