@@ -27,7 +27,7 @@
                 <li><a href="competences.php" class="center">Parcours & compétences</a></li>
                 <li><a href="mailto:rachel@rachelnething.com" class="center">Me contacter</a></li>
                 <li><a href="index.php"><p class="white center">Projets :</p></a></li>
-                <li><a href="devio.php" class="center">Dev.(io)</a></li>
+                <li><a href="devio.php" class="center">JS(wiki)</a></li>
                 <li><a href="pierre-feuille-ciseaux-JS.php" class="center">Jeu: Pierre-Feuille-Ciseaux</a></li>
                 <li><a href="karroad.php" class="center">L'extranet Karroad</a></li>
                 <li><a href="quote.php" class="center">L'application Quote</a></li>

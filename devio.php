@@ -24,7 +24,7 @@
         <br />
         <p class="date align-right"><a href="cena.php">Projet Cena >></a></p>
         <h1 class="projet-title center">Développeur web & mobile</h1>
-        <h2 class="center">Projet : Dev.(io)</h2>
+        <h2 class="center">Projet : JS(wiki)</h2>
         <br />
         <div class="underline"></div>
     </div>
@@ -35,7 +35,7 @@
             <h3>Objectif :</h3>
             <div class="underline"></div>
             <p>Création d'un espace dédié aux <span class="slogan center">développeurs fans de Javascript</span>. Il s'agit de référencer de manière collaborative les outils et services autour de Javascript, tout ce qui peut faciliter la vie des développeurs Front-End et Back-End.</p>
-            <p class="text-center">Version Bêta visible ici : <a href="https://byrachel.github.io/devio/">byrachel.github.io/devio/.</a></p>
+            <p class="text-center">Version Bêta visible ici : <a href="https://jswiki.tech/">jswiki.tech.</a></p>
 
         </div>
 
@@ -52,12 +52,13 @@
                             <li><p>Authentification (création d'un compte),</p></li>
                             <li><p>Création d'un post,</p></li>
                             <li><p>Modification d'un post existant,</p></li>
-                            <li><p>Classement des posts par catégorie.</p></li>
+                            <li><p>Classement des posts par catégorie,</p></li>
+                            <li><p>Recherche par autocomplétion.</p></li>
                         </ul>
                     <br />
                     <p><span class="slogan center">Stack :</span></p>
                     <ul>
-                        <li><p>Angular + Bootstrap + Firebase.</p></li>
+                        <li><p>MEAN (Mongo DB, Express JS, Angular, Node JS).</p></li>
                     </ul>
                 </div>
             </div>

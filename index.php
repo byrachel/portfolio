@@ -35,8 +35,8 @@
 
             <div class="left text-wrapper">
                 <a href="devio.php"><div class="text">
-                <h3>Dev.(io)</h3>
-                <p class="date">Décembre 2019</p>
+                <h3>JS(wiki)</h3>
+                <p class="date">Janvier 2020</p>
                 <p class="intitule">Projet personnel : passionnée de <span class="bold">Javascript</span>, cet espace web a pour but de partager tous les outils et services dédiés aux développeurs JS.</p>
                 <div class="title-stack"><div class="yellow"></div><p class="stack">Stack</p></div>
                 <p class="techno"><span class ="bold">Angular</span> + Bootstrap + FireBase</p>
@@ -49,7 +49,7 @@
                 <p class="date">Décembre 2019</p>
                 <p class="intitule">Création du jeu <span class="bold">"Rock Paper Cisors"</span> dans le cadre d'un test technique. Directive : Il ne fallait utiliser ni bibliothèque, ni framework.</p>
                 <div class="title-stack"><div class="yellow"></div><p class="stack">Stack</p></div>
-                    <p class="techno">HTML5, CSS3, <span class="bold">Javascript Vanilla</span>
+                    <p class="techno">MEAN<span class="bold"> : MongoDB ExpressJS Angular NodeJS</span>
                 </div></a>
             </div>
 
