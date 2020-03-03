@@ -124,7 +124,7 @@ body {
 
 header {
     border-bottom: solid 1px #F5F5F5;
-    margin: 100px;
+    padding: 0 10px;
 }
 
 .title {
@@ -170,11 +170,12 @@ header {
 }
 
 p {
-    font-size: 2em;
+    font-size: 1em;
     text-align: justify;
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
     color: #212121;
+    font-weight: 300;
 }
 
 .timeline-container {

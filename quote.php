@@ -28,20 +28,24 @@
     <section>
         <div class="container center">
             <img src="img/quote.jpg" alt="Création d'une application mobile avec React-Native" class="img-fluid" />
+            <div class="divider"></div>
+
+            <h3 class="center">Objectif :</h3>
+                <div class="underline"></div>
+                <br />
+                <p><span class="slogan">Quote</span> est un petit réseau social en devenir. Cette application mobile permet de stocker et de partager ses citations préférées, d'en découvrir de nouvelles et de se connecter à d'autres fans de citations. Il s'agit d'une version bêta, de nouvelles fonctionnalités sont en cours de développement.</p>
+                <br />
         </div>
 
     <div class="divider"></div>
     <div class="container">
         <div class="row">
             <div class="col-md-5">
-                <img src="img/quote-flow.png" class="quote-preview" />
+                <img src="img/quote-flow.png" class="quote-preview" width="90%" height="90%" />
             </div>
             <div class="col-md-7">
                 <div class="divider"></div>
-                <h3>Objectif :</h3>
-                <br />
-                <p><span class="slogan">Quote</span> est un petit réseau social en devenir. Cette application mobile permet de stocker et de partager ses citations préférées, d'en découvrir de nouvelles et de se connecter à d'autres fans de citations. Il s'agit d'une version bêta, de nouvelles fonctionnalités sont en cours de développement.</p>
-                <br />
+                
                 <h3>Environnement de travail </h3>
                 <br />
                 <p class="slogan">Front-End :</p>
@@ -70,21 +74,18 @@
                         <br />
                         <h3>Fonctionnalités</h3>
                         <br />
-                        <p class="slogan">Version Bêta :</p>
-                        <br />
                         <ul>
                             <li><p>Animation de lancement (splashscreen),</p></li>
-                            <li><p>Création d'un nouveau compte utilisateur,</p></li>
+                            <li><p>Création de compte utilisateur,</p></li>
                             <li><p>Connexion à un compte existant,</p></li>
-                            <li><p>Affichage de toutes les citations enregistrées dans le "flow" par ordre antechonologique,</p></li>
-                            <li><p>Accès à son compte utilisateur,</p></li>
-                            <li><p>Stockage et affichage de ses propres citations,</p></li>
+                            <li><p>Affichage de toutes les citations enregistrées dans le "flow" par ordre antechronologique,</p></li>
+                            <li><p>Stockage et affichage de son profil et ses propres citations,</p></li>
                         </ul>
                         <br />
                         <p class="slogan">En cours de développement :</p>
                         <br />
                         <ul>
-                            <li><p>Indiquer une mention "j'aime" sur une citation,</p></li>
+                            <li><p>Mention "j'aime" sur une citation,</p></li>
                             <li><p>Choisir si l'on souhaite partager sa citation dans le flow ou la garder privée,</p></li>
                             <li><p>Suivre le compte d'un autre utilisateur,</p></li>
                             <li><p>Choisir entre différents background,</p></li>
@@ -95,7 +96,7 @@
 
                 <div class="col-md-5">
                     <div class="left">
-                        <img src="img/quote-citation.png" class="quote-preview" />
+                        <img src="img/quote-citation.png" class="quote-preview" width="90%" height="90%" />
                     </div>
                 </div>
             </div>
