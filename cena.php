@@ -11,13 +11,11 @@
 
 </head>
 <body>
-    <div class="container">
-        <header>
+    <header>
         
         <?php include("menu.php"); ?>
             
-        </header>
-    </div>
+    </header>
 
     <div class="projet container">
         <div id="up"></div>

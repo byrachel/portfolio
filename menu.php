@@ -1,4 +1,5 @@
-<div class="row">
+<div class="container">
+    <div class="row">
     <div class="col-md-6 logo">
         <a href="index.php"><p class="bold-title">Rachel <span class="title">Nething</span><span class="underscore">_</span></p></a>
     </div>
@@ -41,5 +42,6 @@
 
         <a href="https://github.com/byrachel"><img src="img/github.png" alt="Github" class="iconHeader" /></a>
         <a href="https://www.linkedin.com/in/rachel-nething/"><img src="img/linkedin.png" alt="Linkedin" class="iconHeader" /></a>
+    </div>
     </div>
 </div>

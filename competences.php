@@ -11,15 +11,12 @@
 
 </head>
 <body>
-    <div class="container">
-        <div id="up"></div>
-        <header>
+    <div id="up"></div>
+    <header>
             
         <?php include("menu.php"); ?>
             
-        </header>
-    </div>
-
+    </header>
 
     <div class="projet container">
         <h1 class="projet-title center">Développeur FullStack JS</h1>

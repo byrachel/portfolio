@@ -123,8 +123,8 @@ body {
 }
 
 header {
-    border-bottom: solid 3px #F5F5F5;
-    margin-top: 15px;
+    border-bottom: solid 1px #F5F5F5;
+    margin: 100px;
 }
 
 .title {
@@ -133,6 +133,10 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding: 6px 0;
+}
+
+.date {
+    font-size: 11px;
 }
 
 .bold-title {
@@ -166,7 +170,7 @@ header {
 }
 
 p {
-    font-size: 16px;
+    font-size: 2em;
     text-align: justify;
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
@@ -242,7 +246,6 @@ a {
 
 a:hover {
     text-decoration: none;
-
     color: #FDDD92;
 }
 
@@ -290,16 +293,13 @@ h1 {
     color: #FDDD92;
 }
 
-.projet-title {
-    padding-top: 1.5em;
-}
-
-.projet {
-    padding-bottom: 2em;
-}
-
-.description {
-    margin: 8% 5%;
+h2 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #616161;
+    font-size: 1.2em;
+    letter-spacing: 10px;
+    font-weight: 300;
 }
 
 h3 {
@@ -310,13 +310,20 @@ h3 {
 
 }
 
-h2 {
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    color: #616161;
-    font-size: 18px;
-    letter-spacing: 10px;
-    font-weight: 300;
+.black {
+    color: black;
+}
+
+.projet-title {
+    padding-top: 1.5em;
+}
+
+.projet {
+    padding-bottom: 2em;
+}
+
+.description {
+    margin: 8% 5%;
 }
   
   .ml9 .text-animation {
@@ -332,9 +339,7 @@ h2 {
     line-height: 1em;
   }
 
-  .date {
-      font-size: 11px;
-  }
+ 
 
   .yellow {
       width:90px;
@@ -393,9 +398,6 @@ h2 {
     padding-bottom: 20px;
 }
 
-.grey-bg {
-    background-color: #bfbfc1;
-}
 
 .bc {
     font-size: 12px;
