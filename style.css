@@ -50,6 +50,8 @@
     color: #fff;
     text-decoration: none;
     border-top: 1px solid #383838;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
   }
   
   .main-menu a:hover,
@@ -64,13 +66,6 @@
     top: 0;
   }
   
-  /*
-   On small devices, allow it to toggle...
-  */
-  /*
-   :target for non-JavaScript
-   [aria-expanded] will be used if/when JavaScript is added to improve interaction, though it's completely optional.
-  */
   .main-menu:target,
   .main-menu[aria-expanded="true"] {
     display: block;
@@ -92,10 +87,6 @@
     z-index: 1000;
   }
   
-  /* 
-   We could us `.main-menu:target:after`, but
-   it wouldn't be clickable.
-  */
   .main-menu:target + .backdrop,
   .main-menu[aria-expanded="true"] + .backdrop{
     position: absolute;
@@ -174,8 +165,9 @@ p {
     text-align: justify;
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
-    color: #212121;
     font-weight: 300;
+    color: #212121;
+
 }
 
 .timeline-container {
@@ -281,10 +273,11 @@ a:hover {
 
 .intitule {
     color: #212121;
-    font-size: 14px;
+    font-size: 15px;
     font-family: 'Montserrat', sans-serif;
-    line-height: 22px;
-    margin: 25px 0;
+    line-height: 30px;
+    padding: 20px 0;
+    font-weight: 400;
 }
 
 h1 {
@@ -464,3 +457,6 @@ h3 {
      }
 
 }
+
+
+

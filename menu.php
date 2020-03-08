@@ -9,8 +9,8 @@
             id="main-menu-toggle"
             class="menu-toggle iconHeader"
             aria-label="Open main menu">
-            <span class="sr-only">Open menu</span>
-            <img src="img/menu.png" aria-hidden="true" />
+            <span class="sr-only">Open menu</span><span class="intitule">MENU</span>
+            <!-- <img src="img/menu.png" aria-hidden="true" /> -->
             </a>
             
             
@@ -24,15 +24,16 @@
             </a>
             <ul>
                 <br />
-                <li><a href="#"><p class="white center">A propos :</p></a></li>
+                <li><p class="white center">A propos</p></li>
                 <li><a href="competences.php" class="center">Parcours & compétences</a></li>
                 <li><a href="mailto:rachel@rachelnething.com" class="center">Me contacter</a></li>
-                <li><a href="index.php"><p class="white center">Projets :</p></a></li>
-                <li><a href="devio.php" class="center">JS(wiki)</a></li>
-                <li><a href="pierre-feuille-ciseaux-JS.php" class="center">Jeu: Pierre-Feuille-Ciseaux</a></li>
-                <li><a href="karroad.php" class="center">L'extranet Karroad</a></li>
-                <li><a href="quote.php" class="center">L'application Quote</a></li>
-                <li><a href="cena.php" class="center">Cartographie CENA</a></li>
+                <li><a href="index.php"><p class="white center">Projets</p></a></li>
+                <li><a href="devio.php" class="center">JS.wiki (MEAN)</a></li>
+                <li><a href="karroad.php" class="center">Karroad (MERN)</a></li>
+                <li><a href="quote.php" class="center">Quote (React Native)</a></li>
+                <li><a href="convert.php" class="center">Conversion chiffres romains (JS)</a></li>
+                <li><a href="pierre-feuille-ciseaux-JS.php" class="center">Jeu: Pierre-Feuille-Ciseaux (JS)</a></li>
+                <li><a href="cena.php" class="center">Cartographie CENA (MERN)</a></li>
             </ul>
             </nav>
             <a href="#main-menu-toggle"

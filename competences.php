@@ -41,7 +41,6 @@
                         <p class="bold">Front-End :</p>
                         <p>HTML5</p>
                         <p>CSS3</p>
-                        <p>Bootstrap</p>
                         <p>Javascript</p>
                         <p>React JS</p>
                         <p>Angular</p>
@@ -51,7 +50,6 @@
                         <p>Node JS</p>
                         <p>Express JS</p>
                         <p>Mongo DB</p>
-                        <p>FireBase</p>
                         <p class="bold">Mobile :</p>
                         <p>React Native</p>
                     </div>
@@ -60,8 +58,7 @@
                         <p>Visual Studio Code</p>
                         <p>Github</p>
                         <p>Photoshop</p>
-                        <p>FileZilla FTP</p>
-                        <p>MAMP</p>
+                        <p>MAMP / Filezilla</p>
                         <p>Robo 3T</p>
                     </div>
                 </div>
