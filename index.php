@@ -34,13 +34,25 @@
     <section>
         <div class="timeline-container">
 
-            <div class="left text-wrapper">
+            <div class="right text-wrapper">
                 <a href="devio.php"><div class="text">
                 <h3>JS(wiki)</h3>
                 <p class="date">Janvier 2020</p>
                 <p class="intitule">Projet personnel : passionnée de <span class="bold">Javascript</span>, cet espace web a pour but de partager tous les outils et services dédiés aux développeurs JS.</p>
                 <div class="title-stack"><div class="yellow"></div><p class="stack">Stack</p></div>
-                <p class="techno"><span class ="bold">Angular</span> + Bootstrap + FireBase</p>
+                <p class="techno"><span class ="bold">MEAN :</span>MongoDB ExpressJS Angular NodeJS</p>
+                <p class="date">En savoir plus</p>
+                </div></a>
+
+            </div>
+
+            <div class="left text-wrapper">
+                <a href="convert.php"><div class="text">
+                <h3>Les chiffres romains</h3>
+                <p class="date">Janvier 2020</p>
+                <p class="intitule">Projet personnel : petite application de type calculatrice pour <span class="bold">convertir en chiffres romains</span> avec un design épuré et neumorphism.</p>
+                <div class="title-stack"><div class="yellow"></div><p class="stack">Stack</p></div>
+                <p class="techno"><span class ="bold">JavaScript Vanilla</span> + HTML et CSS</p>
                 <p class="date">En savoir plus</p>
                 </div></a>
 
@@ -52,7 +64,7 @@
                 <p class="date">Décembre 2019</p>
                 <p class="intitule">Création du jeu <span class="bold">"Rock Paper Cisors"</span> dans le cadre d'un test technique. Directive : Il ne fallait utiliser ni bibliothèque, ni framework.</p>
                 <div class="title-stack"><div class="yellow"></div><p class="stack">Stack</p></div>
-                    <p class="techno">MEAN<span class="bold"> : MongoDB ExpressJS Angular NodeJS</span>
+                <p class="techno"><span class ="bold">JavaScript Vanilla</span> + HTML et CSS</p>
                     <p class="date">En savoir plus</p>
 
                 </div></a>
