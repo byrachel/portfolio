@@ -118,13 +118,15 @@
             </div>
 
             <div class="left text-wrapper">
-                <div class="text">
-                    <h3><a href="#">Portraitoupaysage.com</a></h3>
+                <a href="http://www.portraitoupaysage.com"><div class="text">
+                    <h3>Portraitoupaysage.com</h3>
                     <p class="date">Septembre 2014</p>
                     <p class="intitule">Site d'inspiration et de partage pour les photographes professionnels. </p>
                     <div class="title-stack"><div class="yellow"></div><p class="stack">Stack</p></div>
                     <p class="techno">Wordpress - Woocommerce</p>
-                </div>
+                    <p class="date">Visiter le site</p>
+
+                </div></a>
             </div>
         </div>
     </section>

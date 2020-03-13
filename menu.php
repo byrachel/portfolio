@@ -9,7 +9,7 @@
             id="main-menu-toggle"
             class="menu-toggle iconHeader"
             aria-label="Open main menu">
-            <span class="sr-only">Open menu</span><span class="intitule">MENU</span>
+            <span class="sr-only">Open menu</span><span class="top-menu">MENU</span>
             <!-- <img src="img/menu.png" aria-hidden="true" /> -->
             </a>
             

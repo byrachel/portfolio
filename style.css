@@ -275,9 +275,18 @@ a:hover {
     color: #212121;
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
-    line-height: 30px;
+    line-height: 25px;
+    padding: 15px 0;
+    font-weight: 300;
+}
+
+.top-menu {
+    color: #212121;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 36px;
     padding: 20px 0;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 h1 {
