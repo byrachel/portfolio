@@ -37,7 +37,7 @@
             <div class="right text-wrapper">
                 <a href="devio.php"><div class="text">
                 <h3>JS(wiki)</h3>
-                <p class="date">Janvier 2020</p>
+                <p class="date">Février 2020</p>
                 <p class="intitule">Projet personnel : passionnée de <span class="bold">Javascript</span>, cet espace web a pour but de partager tous les outils et services dédiés aux développeurs JS.</p>
                 <div class="title-stack"><div class="yellow"></div><p class="stack">Stack</p></div>
                 <p class="techno"><span class ="bold">MEAN :</span>MongoDB ExpressJS Angular NodeJS</p>
@@ -95,13 +95,15 @@
             </div>
 
             <div class="left text-wrapper">
-                <div class="text">
+                <a href="https://www.youtube.com/watch?v=EGpLIyXv90Y&feature=youtu.be"><div class="text">
                     <h3>Hackathon Green Tech</h3>
-                    <p class="date">Organisé par <a href="http://hackforwomen.com">WHAT06</a> - Novembre 2019</p>
+                    <p class="date">Organisé par WHAT06 - Novembre 2019</p>
                     <p class="intitule"><span class="bold">Application mobile</span> pour fédérér les jeunes autour d'actions "green" au travers de défis et animations.</p>
                     <div class="title-stack"><div class="yellow"></div><p class="stack">Stack</p></div>
-                    <p class="techno">ReactNative</p>
-                </div>
+                    <p class="techno">React Native</p>
+                    <p class="date">Vidéo de présentation (interface à partir de 4:30mn)</p>
+
+                </div></a>
             </div>
             
             <div class="right text-wrapper">
