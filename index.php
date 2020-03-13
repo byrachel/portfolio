@@ -34,7 +34,7 @@
     <section>
         <div class="timeline-container">
 
-            <div class="right text-wrapper">
+            <div class="left text-wrapper">
                 <a href="devio.php"><div class="text">
                 <h3>JS(wiki)</h3>
                 <p class="date">Février 2020</p>
@@ -46,13 +46,25 @@
 
             </div>
 
-            <div class="left text-wrapper">
-                <a href="convert.php"><div class="text">
+            <div class="right text-wrapper">
+            <a href="convert.php"><div class="text">
                 <h3>Les chiffres romains</h3>
                 <p class="date">Janvier 2020</p>
                 <p class="intitule">Projet personnel : petite application de type calculatrice pour <span class="bold">convertir en chiffres romains</span> avec un design épuré et neumorphism.</p>
                 <div class="title-stack"><div class="yellow"></div><p class="stack">Stack</p></div>
                 <p class="techno"><span class ="bold">JavaScript Vanilla</span> + HTML et CSS</p>
+                <p class="date">En savoir plus</p>
+                </div></a>
+
+            </div>
+
+            <div class="left text-wrapper">
+                <a href="webdesign.php"><div class="text">
+                <h3>Macoma</h3>
+                <p class="date">Janvier 2020</p>
+                <p class="intitule"><span class="bold">UI design : </span> Création graphique d'une application web moderne, ergonomique et optimisée pour l'expérience utilisateur (UX).</p>
+                <div class="title-stack"><div class="yellow"></div><p class="stack">Stack</p></div>
+                <p class="techno"><span class ="bold">InVision Studio</span></p>
                 <p class="date">En savoir plus</p>
                 </div></a>
 

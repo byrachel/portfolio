@@ -33,6 +33,7 @@
                 <li><a href="quote.php" class="center">Quote (React Native)</a></li>
                 <li><a href="convert.php" class="center">Conversion chiffres romains (JS)</a></li>
                 <li><a href="pierre-feuille-ciseaux-JS.php" class="center">Jeu: Pierre-Feuille-Ciseaux (JS)</a></li>
+                <li><a href="webdesign.php" class="center">Macoma (webdesign)</a></li>
                 <li><a href="cena.php" class="center">Cartographie CENA (MERN)</a></li>
             </ul>
             </nav>

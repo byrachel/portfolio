@@ -83,7 +83,7 @@
                     <p>Projet personnel : Passionnée par le Javascript, il s'agit de réaliser un site communautaire qui référence tous les outils et services qui peuvent aider les développeurs.</p>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted"><a href="/devio.html">En savoir plus</a></small>
+                    <small class="text-muted"><a href="/devio.php">En savoir plus</a></small>
                 </div>
             </div>
             <div class="card">
@@ -93,7 +93,7 @@
                     <p>Interface permettant aux clients de la start-up Karroad de visualiser les données issues des caméras des collectivités et d'un système d'IA créé par l'entreprise.</p>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted"><a href="/karroad.html">En savoir plus</a></small>
+                    <small class="text-muted"><a href="/karroad.php">En savoir plus</a></small>
                 </div>
             </div>
             <div class="card">
@@ -103,7 +103,7 @@
                     <p>Il s'agit d'une application mobile pour stocker et partager ses citations favorites. Projet réalisé avec React-Native, Node JS et Mongo DB (bientôt disponible sur Google Play).</p>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted"><a href="/quote.html">En savoir plus</a></small>
+                    <small class="text-muted"><a href="/quote.php">En savoir plus</a></small>
                 </div>
             </div>
         </div>
@@ -116,15 +116,30 @@
                     <p>Dans le cadre de la formation Le Bocal Academy et du salon talent In Tech, nous avons réalisé une application web représentant la Cartographie de l'Ecosystème Numérique Azuréen.</p>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted"><a href="http://cena-map.fr">Aller sur le site</a></small>
+                    <small class="text-muted"><a href="/cena.php">En savoir plus</a></small>
                 </div>
             </div>
             <div class="card">
-             
+                <img src="img/macoma.jpg" class="card-img-top" />
+                <div class="card-body">
+                    <p class="slogan">macoma</p>
+                    <p>Création graphique d'une application de formation dédiée au webmarketing. </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted"><a href="/webdesign.php">En savoir plus</a></small>
+                </div>
             </div>
             <div class="card">
-            
+                <img src="img/application-en-javascript.png" class="card-img-top" />
+                <div class="card-body">
+                    <p class="slogan">Convert</p>
+                    <p>Petite application Web réalisée en JavaScript Vanilla. Sous forme d'une calculatrice, on peut convertir les chiffres en chiffres romains. Design neumorphism.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted"><a href="/convert.php">En savoir plus</a></small>
+                </div>
             </div>
+
         </div>
         <div class="divider center">
             <a href="#up"><img src="img/up.png" class="right" /></a>
